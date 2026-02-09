@@ -43,6 +43,7 @@ export default function Page() {
           </>
         ) : (
           <>
+            <h1 className="text-container">Hey Shruti</h1>
             <img
               className="h-[200px]"
               style={{ width: "400x", height: "240px" }}
