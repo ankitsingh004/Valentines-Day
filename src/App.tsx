@@ -59,6 +59,7 @@ export default function Page() {
                 Yes
               </button>
 
+              noCount >= 16 ? <> :
               <button onClick={handleNoClick} className="no-button">
                 {noCount === 0 ? "No" : getNoButtonText()}
               </button>
